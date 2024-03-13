@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2</title>
+</head>
+<body>
+    <form method="POST" action="index.php">
+
+        <input type="text" name="" id="Texto" value="Digite seu texto aqui."> <!--caixa de texto-->
+        
+        <input type="button" name="botao" value="OK"> <!--botão-->
+        
+        <input type="color"> <!--caixa de cor-->
+        
+        <input type="date"> <!--calendário-->
+
+        <input type="datetime-local"> <!--calendário + hora-->
+
+        <input type="email"> <!--é uma caixa de texto com validação para @ ou .-->
+
+        <input type="file"> <!--anexar arquivo-->
+
+        <input type="image" name="button" src="C:\Users\disrct\Desktop\Yas\Imagem Web\gato.jfif"> <!--botão com imagem-->
+
+        <input type="month">
+
+        <input type="number">
+
+        <input type="password"> <!--esconde o que está sendo escrito-->
+
+        <input type="range" min="0" max="300" step="10" value="100"> 
+        <hr>
+        <input type="radio" name="OPCAO" value="op1" checked> opcao1
+        <input type="radio" name="OPCAO" value="op2"> opcao2
+        <input type="radio" name="OPCAO" value="op3"> opcao3
+        <hr>
+        <input type="checkbox" name="OPCAO" value="op1" checked> opcao1
+        <input type="checkbox" name="OPCAO" value="op2"> opcao2
+        <input type="checkbox" name="OPCAO" value="op3" checked> opcao3
+        <hr>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Reset">
+        <hr>
+        <input type="search" placeholder="Pesquise"> <!-- placeholder é o texto "invisivel" e ao selecionar ele some -->
+        <hr>
+        <input type="tel" pattern="([0-9]{2})[0-9]{5}-[0-9]{4}" placeholder="(41) 9 0000-0000">
+        <hr>
+        <label for="Nome">Nome:</label>
+        <input type="text" id="Nome">
+        <hr>
+        <select name="Cidades">
+            <option value="sp">São Paulo</option>
+            <option value="cwb">Curitiba</option>
+            <option value="rs">Porto Alegre</option>
+        </select>
+        <hr>
+        <label for="textarea">Observações</label>
+        <textarea cols="100" rows="3"></textarea>
+        <hr>
+        <img src="C:\Users\disrct\Desktop\Yas\Imagem Web\Caracteres.png">
+        <hr>
+        <fieldset>
+            <legend>Massas</legend>
+            <input type="checkbox" name="OPCAO" value="op1" checked> Gnocchi<br>
+            <input type="checkbox" name="OPCAO" value="op2"> Espaguete<br>
+            <input type="checkbox" name="OPCAO" value="op3"> Fettuccine<br>
+        </fieldset>
+        <fieldset>
+            <legend>Molhos</legend>
+            <input type="radio" name="OPCAO" value="op1" checked> Carbonara</br>
+            <input type="radio" name="OPCAO" value="op2"> Bechamel</br>
+            <input type="radio" name="OPCAO" value="op3"> Bolonhesa</br>
+        </fieldset>
+        <hr>
+        <details>
+            <summary>Massas</summary>
+                <p><h4>Espaguete e linguine</h4>
+                    Essas massas, por serem de fios longos e al dente, combinam com molhos líquidos
+                    ou um pouco encorpados. Molho à bolonhesa, pesto, bechamel, de alho, ervas frescas,
+                    vegetais e frutos do mar harmonizam bem com esses tipos de macarrão. Espaguete e linguine,
+                    por vezes, são também usados no preparo do yakisoba, combinando perfeitamente com molho shoyu.</p>
+                <p><h4>Fettuccine</h4>
+                    As massas tagliattelle, parpadelle e fettuccine são mais achatadas e grossas,
+                    podendo ser servidas com muitos tipos de molhos. Entre eles estão os ragus,
+                    como ragu de frango, cordeiro, frutos do mar, cogumelos ou à bolonhesa, por exemplo.
+                    Podem também ser guarnecidas com carbonara e Alfredo.</p>
+                <p><h4>Gnocchi</h4>
+                    Essa é uma massa de tamanho pequeno ou médio, suave e com textura macia.
+                    Por esse motivo, casa bem com molhos de sabor mais intenso, como ragus, bechamel
+                    e molho de tomate. O bechamel é uma ótima escolha, especialmente quando misturamos
+                    sabores fortes, como queijo gorgonzola e cogumelos.</p>
+        </details>
+        <details>
+            <summary>Molhos</summary>
+                <p><h4>Bechamel</h4>
+                    Originário da França, leva farinha branca, margarina
+                    e leite. É a base para todos os molhos brancos.</p>
+                <p><h4>Bolonhesa</h4>
+                    Favorito entre os molhos, é bastante conhecido. Basicamente, é o molho ao
+                    sugo acrescido de carne moída.</p>
+                <p><h4>Carbonara</h4>
+                    Cremoso, o carbonara leva gema de ovo, bacon, creme de leite e queijo parmesão.</p>
+        </details>
+        <hr>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115257.6906772572!2d-49.403658123162586!3d-25.47825833962848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce500d5e96635%3A0x1a2d5ec5fddc5654!2sJardim%20Bot%C3%A2nico%20de%20Curitiba!5e0!3m2!1spt-BR!2sbr!4v1709571814330!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="fast" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Qe893xWQCZ4?si=FsbeCQAAFLZBYye3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    </form>
+    
+</body>
+</html>

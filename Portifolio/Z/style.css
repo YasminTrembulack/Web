@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho */
+header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    background-color: #0e0036;
+    z-index: 3;
+}
+
+.logo {
+    background-image: linear-gradient(to right, #a04f62, #d2a391);
+    background-clip: text;
+    color: transparent;
+    padding: 15px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+/* Estilo da barra de navegação */
+.navbar {
+    margin-right: 100px;
+}
+
+.navbar-itens {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-itens > li > a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #0e0036;
+    padding: 3px 10px;
+    width: 50px;
+}
+
+.navbar-itens > li > a:hover {
+    color: #0e0036;
+    border: 2px solid #e6d7b8;
+    border-radius: 20px;
+    background-color: #e6d7b8;
+    transform: scale(1.1, 1.1);
+}
+
+/* Estilo do corpo */
+body {
+    /* background-color: #a04f62;*/
+    background-image: linear-gradient(to bottom, #a04f62, #d2a391,#d2a391, #a04f62);
+} 
+
+/* Estilo do conteúdo do artigo */
+#article01 {
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 150px;
+}
+
+#sobremim-h2{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #0e0036;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Estilo da seção de apresentação */
+#sobremim {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#caixa-foto01{
+    justify-content: center;
+    background-color: #e6d7b8;
+    margin-right: 80px;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+
+/* Estilo da foto */
+#foto01 {
+    width: 300px;
+    border: 2px solid #0e0036;
+    border-radius: 50%;
+    box-shadow: 15px 15px 1px rgba(14, 0, 54, 0.4);
+    z-index: 2;
+}
+
+/* Estilo da caixa de texto */
+#caixa-texto01 {
+    background-color: #d2a391;
+    padding: 60px;
+    border: 3px dashed #a04f62;
+    border-radius: 20px;
+    float: left;
+    width: 900px;
+    height: 400px;
+    box-shadow: 15px 15px 1px rgba(160,79,98, 0.4);
+    z-index: 2;
+}
+
+/* Estilo do texto dentro da caixa de texto */
+#texto01 {
+    color: #0e0036;
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    z-index: 2;
+    text-align: center;
+}
+
+#caixa-lista{
+    padding: 30px;
+    padding-left: 50px;
+    background-color: #4c264b;
+    color: #fff;
+    font-family: "Dosis", sans-serif;
+    font-size: 20px;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+#lista{
+    list-style-type: square;
+}
+
+#trabalho-h2{
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#trabalho {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+
+.caixa-texto02{
+    background-color: #4c264b;
+    padding: 60px;
+    padding-top: 30px;
+    float: left;
+    width: 900px;
+    box-shadow: 15px 15px 1px rgba(160, 79, 98, 0.4);
+    z-index: 2;
+    
+}
+#caixa-texto02-dois{
+    padding-bottom: 20px ;
+}
+
+#caixa-texto02-um{
+    margin-bottom: 70px;
+}
+
+
+#texto02 {
+    margin-top: 20px;
+    color: #e6d7b8;
+    font-family: "Dosis", sans-serif;
+    font-size: 30px;
+    z-index: 2;
+    
+}
+
+.caixa-foto02{
+    position: relative;
+    width: 700px;
+    justify-content: center;
+    padding: 0px 40px;
+    height: 810px;
+}
+#caixa-foto02-dois{
+    margin-bottom: 70px;
+}
+
+#foto02 {
+    margin: 0px 30px;
+    width: 600px;
+    border: 2px solid #0e0036;
+    box-shadow: 15px 15px 1px rgba(14, 0, 54, 0.4);
+    z-index: 2;
+}
+
+#caixa-video{
+    width: 100%;
+    max-width: 300px; /* Defina o máximo desejado */
+    margin: 0 auto;
+}
+
+video{
+    flex-grow: 1;
+    flex-basis: 200px;
+    width: 100%;
+    height: auto;
+}
+
+details{
+    position: relative;
+    display: inline;
+    padding: 10px 20px;
+    background-color: #d2a391;
+    font-family: "Poppins", sans-serif;
+    color: #4c264b;
+    border-radius: 20px;
+    float: right;
+}

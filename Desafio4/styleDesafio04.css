@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+}
+
+body{
+    background-image: url(/Imagens/sla.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #00b0f4;
+    
+    
+
+}
+
+#Logo{
+    margin: 10px 10px 0px 20px;
+}
+
+.navbar{
+    margin-right: 110px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial Narrow, sans-serif;
+    font-weight: bold;  
+}
+
+ul{
+    margin-bottom: 8px;
+    margin-left: 20px;
+    border-left: 2px solid white;
+    padding: 10px 0px 10px 200px;
+    list-style: none;
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    padding: 16px;
+    background-color: #109ceb;
+}
+
+nav {
+    
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;  
+}
+
+article { 
+    padding: 8px;
+    width: 75%;
+}
+
+.Cartaz{
+    height: 300px;
+}
+
+.Filme{
+    margin: 20px;
+}
+
+
+section {
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid white;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    
+    margin: 20px 20px 40px 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+aside {
+    background-color: #dda3ec;
+    padding: 8px;
+    width: 600px;
+}
+
+figure {
+    background-color: #6fd66c;
+    margin: 8px;
+    height: 45%;
+}
+
+details {
+    background-color: #116b2f;
+    margin: 8px;
+    height: 45%;
+}
+
+footer {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border-radius: 30px;
+
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}

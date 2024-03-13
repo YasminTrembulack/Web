@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #a04f62, #d2a391, #d2a391, #a04f62);
+}
+
+article {
+  width: 1920px;
+  max-width: 1920px;
+  position: relative;
+  padding-bottom: 60px;
+  padding-top: 150px;
+}
+
+#sobremim {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#foto01 {
+  border: 2px solid #0e0036;
+  border-radius: 50%;
+  box-shadow: 15px 15px 1px rgba(14, 0, 54, 0.4);
+  z-index: 2;
+}
+
+
+#lista {
+  list-style-type: square;
+}
+
+#trabalho {
+  padding: 80px 0px;
+}
+
+.tb{
+  gap: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  align-items: center;
+  
+}
+
+#foto02 {
+  width: 600px;
+  border: 2px solid #0e0036;
+  box-shadow: 15px 15px 1px rgba(14, 0, 54, 0.4);
+  z-index: 2;
+}
+
+details {
+  position: relative;
+  display: inline;
+  padding: 10px 20px;
+  background-color: #d2a391;
+  font-family: "Poppins", sans-serif;
+  color: #4c264b;
+  border-radius: 20px;
+  float: right;
+}
+
+#hobbies {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+  gap: 20px;
+
+}
+
+#foto03 {
+  border: 2px solid #0e0036;
+  box-shadow: 15px 15px 1px rgba(14, 0, 54, 0.4);
+  z-index: 2;
+}
+
+aside {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#contato{
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+label{
+  font-family: "Poppins", sans-serif;
+  color: #0e0036;
+  font-size: 20px;
+}
+
+textarea {
+  max-width: 780px;
+  max-height: 50px;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: block; 
+}
+
+input[type="submit"] {
+  background: #4c264b;
+  color: #fff;
+  border: none;
+  padding: 15px 25px;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+input[type="text"],input[type="email"],textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #0e0036;
+  background-color: #fff;
+}
+
+/* 768px - 1024px = telas menores, laptops */
+@media (min-width: 768px), (max-width: 768px) {
+  #caixa-texto01 {
+    max-width: 900px;
+    min-height: 200px;
+  }
+  .logo{
+    font-size: 25px;
+    padding-right: 40px;
+    padding-left: 15px;
+  }
+  .navbar-itens>li>a {
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  article{
+    padding-top: 30px;
+  }
+  #caixa-foto01 {
+    margin-bottom: 40px;
+  }
+  #foto01{
+    width: 300px;
+  }
+  #sobremim{
+    flex-direction: column;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #caixa-lista{
+    margin-bottom: 50px;
+  }
+  .caixa-foto02{
+    display: flex;
+    flex-direction: column;
+  }
+  .caixa-texto02{
+    padding: 30px;
+    max-height: 900px;
+    min-width: 370px;
+  }
+  #caixa-texto02-dois{
+    max-height: 900px;
+    min-width: 370px;
+  }  
+  #trabalho-h2{
+    padding-top: 30px;
+  }
+  #texto02{
+    font-size: 30px;
+  }
+  #foto02{
+    width: 300px;
+  }
+  #caixa-texto02-dois{
+    padding-top: 50px;
+  }
+  #trabalho {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  #hobbies{
+    flex-direction: column;
+    padding-top: 50px;
+  }
+  #foto03{
+    width: 350px;
+  }
+  #caixa-texto03{
+    width: 450px;
+    height: 450px;
+    max-width: 500px;
+    max-height: 500px;
+  }
+  .caixa-texto03 {
+    max-width: 700px;
+   
+    min-height: 700px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #caixa-texto01 {
+    max-width: 950px;
+    min-height: 200px;
+  }
+  #caixa-lista {
+    min-width: 270px;
+    max-width: 327px;
+    max-height: 400px;
+    z-index: 2;
+  }
+  .logo{
+    font-size: 35px;
+    padding-right: 30px;
+    padding-left: 10px;
+  }
+  .navbar-itens>li>a {
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  .caixa-foto02{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  #trabalho-h2{
+    padding-top: 40px;
+  }
+  #texto02{
+    font-size: 30px;
+  }
+  #foto02{
+    width: 370px;
+  }
+  #trabalho01{
+    gap: 40px;
+    padding-bottom: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+  }
+  #trabalho02{
+    display: flex;
+    gap: 40px;
+    padding-bottom: 50px;
+    height: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .caixa-texto03 {
+    max-width: 700px;
+    min-width: 300px;
+    min-height: 700px;
+  }
+  #caixa-texto02-dois{
+    padding-top: 35px;
+  }
+  #trabalho {
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  #foto03{
+    margin: 30px 20px;
+    width: 400px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .navbar-itens>li>a {
+    margin-right: 15px;
+    font-size: 18px;
+  }
+  .caixa-texto02{
+    margin: 0px;
+  }
+  #caixa-texto01 {
+    width: auto;
+    max-width: 900px;
+    min-height: 250px;
+  }
+  .logo{
+    font-size:40px;
+    padding-right: 40px;
+    padding-left: 10px;
+  }
+  .navbar-itens>li>a {
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  .caixa-texto02{
+    max-width: 1000px;
+  }
+  #caixa-foto01 {
+    margin-right: 20px;
+  }
+  #foto01{
+    width: 250px;
+  }
+  #sobremim{
+    flex-direction: row;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #caixa-lista{
+    margin-bottom: 50px;
+    padding: 25px;
+    padding-left: 45px;
+    width: 300px;
+    height: 250px;  
+  }
+  #hobbies{
+    flex-direction: row;
+    padding-top: 50px;
+  }
+  aside{ 
+    flex-direction: column;
+  }
+  .caixa-texto03 {
+    max-width: 700px;
+    min-width: 300px;
+    min-height: 700px;
+  }
+  #foto03{
+    width: auto;
+    margin: 30px 20px;
+    max-width: 300px;
+  }
+}
