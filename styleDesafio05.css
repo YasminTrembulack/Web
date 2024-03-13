@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.texto
+{
+    border-right: 2px solid black;
+    padding-right: 10px;
+}
+
+.navbar-itens{
+    text-decoration: none;
+}
+
+.caixa-cards{
+    display: flex;
+    justify-content: center;
+    gap:30px
+}
+.titulo{
+    background-image: linear-gradient(to right,rgb(72, 108, 226), rgb(193, 60, 255), rgb(255, 196, 0)); 
+    background-clip: text;
+    color: transparent;
+
+    
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-mechanics{
+    border: 3px dashed rgb(138, 169, 255);
+}
+.card-IoT{
+    border: 3px dashed rgb(218, 138, 255);
+}
+.card-eletric{
+    border: 3px dashed rgb(255, 231, 123);
+}
