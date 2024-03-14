@@ -62,3 +62,11 @@ footer{
 .texto-footer{
     color: white;
 }
+#carouselExample{
+    width: 1000px;
+}
+.carossel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
