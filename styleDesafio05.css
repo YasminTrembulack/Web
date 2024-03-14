@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
 .texto-header
 {
     border-right: 2px solid black;
@@ -10,10 +15,10 @@
   
 }
 header{
-    height: 10vh;
+    height: 11vh;
 }
 main{
-    height: 80vh;
+    min-height: 78vh;
 }
 .navbar-itens{
     text-decoration: none;
@@ -56,8 +61,9 @@ footer{
     display: flex;
     align-items: center;
     padding-left: 30px;
- 
-    height: 10vh;
+    height: 8vh;
+    margin-top: 29px;
+    /* height: 10vh; */
 }
 .texto-footer{
     color: white;
@@ -69,4 +75,14 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 30px;
+}
+
+@media (max-width: 768px){
+    .caixa-cards{
+        flex-direction: column;
+    }
+    .mechatronics{
+        padding-top: 60px;
+    }
 }
