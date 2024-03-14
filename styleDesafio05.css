@@ -3,16 +3,24 @@
     padding: 0;
 }
 
-.texto
+.texto-header
 {
     border-right: 2px solid black;
     padding-right: 10px;
+  
 }
-
+header{
+    height: 10vh;
+}
+main{
+    height: 80vh;
+}
 .navbar-itens{
     text-decoration: none;
 }
-
+article{
+    z-index: -1;
+}
 .caixa-cards{
     display: flex;
     justify-content: center;
@@ -22,11 +30,7 @@
     background-image: linear-gradient(to right,rgb(72, 108, 226), rgb(193, 60, 255), rgb(255, 196, 0)); 
     background-clip: text;
     color: transparent;
-
-    
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
 }
 
 .card-mechanics{
@@ -37,4 +41,24 @@
 }
 .card-eletric{
     border: 3px dashed rgb(255, 231, 123);
+}
+
+.mechatronics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+footer{
+    background-color: 
+    rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+ 
+    height: 10vh;
+}
+.texto-footer{
+    color: white;
 }
