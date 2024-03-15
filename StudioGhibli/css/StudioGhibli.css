@@ -54,15 +54,11 @@ nav{
     padding-top: 20px;
     display: flex;
     justify-content: center;
-
-    
 }
 .imagetotoro{
     max-width: 1903px;
     object-fit: cover;
 }
 body{
-    /* background-image: url(/StudioGhibli/Imagens/Backgound3.png);
-    object-fit: cover; */
-    background-color: #1c93bf;
+    background-color: #043e53;
 }
