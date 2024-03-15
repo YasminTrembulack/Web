@@ -7,6 +7,8 @@
 }
 header{
     height: 8vh;
+    position: fixed;
+    width: 100%;
 }
 main{
     min-height: 87vh;
@@ -47,8 +49,20 @@ nav{
     display: flex;
     justify-content: center;
 }
+.caixa-imagetotoro{
+    z-index: -1;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
 
-body{
-    background-image: url(/StudioGhibli/Imagens/Backgound2.png);
+    
+}
+.imagetotoro{
+    max-width: 1903px;
     object-fit: cover;
+}
+body{
+    /* background-image: url(/StudioGhibli/Imagens/Backgound3.png);
+    object-fit: cover; */
+    background-color: #1c93bf;
 }
