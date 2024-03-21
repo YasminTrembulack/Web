@@ -26,10 +26,18 @@ body{
 }
 .dados-tec{
     background-color: rgb(0, 122, 221);
-    max-width: 40%;
-    padding: 30px;
+    min-width: 40%;
+    padding: 20px;
     color: white;
 }
 .texto-intro{
     font-size: 18px;
+}
+.texto-topo{
+    display: inline-block;
+    padding-left: 50px;
+}
+.caixa-dados{
+    display: flex;
+    
 }
