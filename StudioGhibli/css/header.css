@@ -1,0 +1,25 @@
+
+.navbar{
+    background-color: transparent; 
+}
+nav{
+    font-family: "Open Sans", sans-serif;
+}
+#h2-logo{
+    color: white;
+    margin: 0px;
+    padding: 11px 0px;
+}
+.nav-link{
+    color: white;
+    font-weight: 500;
+    size: 35px;
+    display: inline-block;
+    padding: 0px;
+}
+.nav-item{
+    padding: 8px 15px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+}
